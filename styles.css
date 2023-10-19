@@ -100,10 +100,8 @@ body {
 
 #opcionesContainer {
     position: fixed;
-    top: 160px; /* Ajusta según sea necesario para que se alinee correctamente con la barra de navegación */
-    left: 100px;
-    width: 100%;
-    margin-top: 0;
-    padding-top: 0;
+    top: 80px; /* Ajusta según sea necesario para que se alinee correctamente con la barra de navegación */
+    left: 54px;
+    width: 70%;
     display: none; /* Oculta inicialmente el contenedor */
 }
