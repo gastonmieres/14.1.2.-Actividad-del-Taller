@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">LOREM IPSUM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +34,80 @@
         </div>
     </nav>
 
-    <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 1</a>
-        <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 2</a>
-        <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 3</a>
-        <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 4</a>
-      </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3 d-none d-lg-block">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 1</a>
+                    <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 2</a>
+                    <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 3</a>
+                    <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 4</a>
+                </div>
+            </div>
 
+            <div class="col-md-9">
+                <div class="modal-title">
+                    <h1 class="text-center">Lorem ipsum...</h1>
+                </div>
+
+                <div id="textCarousel" class="carousel slide text-center" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p>In faucibus leo ruget,</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p>...vestibulum mollis, tortor ac conque commodo</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p>eget tincidunt turpis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-container">
+                    <div class="text-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis, tortor ac congue commodo, nisi neque bibendum elit, quis vulputate dolor augue ut mauris. tincicunt</p>
+                    </div>
+                    <div class="text-block">
+                        <p>Phasellus eleifend semper tempor. Quisque mi lorem, laoreet eu urna sit amet, tempor volutpat est. Vestibulum lobortis nulla vel odio laoreet, iaculis rhoncus neque porttitor.</p>
+                    </div>
+                    <div class="text-block">
+                        <p>Fusce vitae enim et tellus lacinia condimentum e at massa. Nullam laoreet, elit quis hendrerit maximus, ante sem congue lorem, at vestibulum felis mauris et arcu.</p>
+                    </div>
+                    <div class="text-block">
+                        <p>Mauris mattis porttitor erat, in pharetra risus fringilla lobortis. Vestibulum et ante commodo, imperdiet neque ac, tempus felis. Nullam sed pharetra purus. Donec sit amet ultricies nisi.</p>
+                    </div>
+                    <div class="text-block">
+                        <p>In mi velit, fringilla sed velit vel, ornare varius dui. Nunc viverra diam sit amet mollis posuere. Nullam semper odio in consectetur ornare.</p>
+                    </div>
+                    <div class="text-block">
+                        <p>Proin suscipit orci mi, ut hendrerit mi molestie nec. Donec efficitur risus erat, eu auctor massa molestie vitae.</p>
+                    </div>
+                    <div class="text-block">
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lectus ligula, ultricies ut est nec, varius dignissim nulla.</p>
+                    </div>
+                    <div class="text-block">
+                        <p>In aliquet fringilla libero, quis dapibus massa tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
     
-    <script src="main.js"></script>
+    <div id="opcionesContainer" class="container mt-4 d-lg-none" style="display: none;">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 1</a>
+            <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 2</a>
+            <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 3</a>
+            <a href="#" class="list-group-item list-group-item-action text-decoration-underline">Opcion 4</a>
+        </div>
+    </div>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>
